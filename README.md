@@ -1,2 +1,2 @@
 # Chatapp
-This is a chatapp which was designed in figma and created using html and css by me. 
+This is a chatapp landing page which was designed in figma and created using html, css and little javascript by me. 
