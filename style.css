@@ -2108,9 +2108,10 @@ p {
 }
 
 .hero-section {
-  min-height: 100vh;
+  height: auto;
   background-image: linear-gradient(45deg, #2e3036, #3e4047 100%, #fff);
-  padding: 28vh 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .heading {
@@ -2441,10 +2442,10 @@ p {
 
 @media screen and (max-width: 991px) {
   .hero-section {
-    height: 0;
-    min-height: 100vh;
-    padding-top: 14vh;
-    padding-bottom: 14vh;
+    height: auto;
+    min-height: 0;
+    padding-top: 56px;
+    padding-bottom: 56px;
   }
 
   .heading {
@@ -2581,8 +2582,8 @@ p {
 
 @media screen and (max-width: 767px) {
   .hero-section {
-    padding-top: 10vh;
-    padding-bottom: 24px;
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
 
   .heading {
@@ -2777,7 +2778,9 @@ p {
   .hero-section {
     margin-left: auto;
     margin-right: auto;
-    padding: 7vh 20px 5vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: auto;
   }
 
   .heading {
